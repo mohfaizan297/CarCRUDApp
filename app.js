@@ -20,6 +20,6 @@ app.use(cookieParser());
 
 // Define Routes
 app.use('/api/auth', authRoute);
-app.use('/api/admin/cars', carRoute);
+app.use('/api/cars', carRoute);
 
 module.exports = app;
