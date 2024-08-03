@@ -14,7 +14,7 @@ console.log('FRONTEND_URL:', process.env.FRONTEND_URL);
 
 // Init Middleware  
 app.use(cors({
-    origin: process.env.FRONTEND_URL,
+    origin: "https://car-crud-n251cxxq7-moh-faizans-projects.vercel.app",
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Include OPTIONS for preflight requests
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true
